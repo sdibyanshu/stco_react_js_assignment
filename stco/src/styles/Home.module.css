@@ -1,5 +1,5 @@
 #main{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     height: auto;
     display: grid;
@@ -8,11 +8,19 @@
     gap: 20px;
 }
 #main>div{
-   border: 2px solid green;
+   /* border: 2px solid green; */
    height: auto;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
 }
 #main>div>img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
    
+}
+#main>div>h1{
+color: green;
+font-size: 16px;
+}
+#main>div>h4{
+    text-transform: uppercase;
 }
