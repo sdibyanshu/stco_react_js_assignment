@@ -26,7 +26,7 @@ function Home() {
 
   return (
     <>
-     <h1>Products Page</h1>
+  
            <div id={styles.main}>
            {data.map((el) => (
                <div key={el.id}>
