@@ -15,7 +15,8 @@ function Home() {
       const target=event.target
       const name=target.name
       const value=target.value;
-      alert(`${name} ${value}`)
+      console.log(value)
+      
    }
 
   useEffect(() => {
